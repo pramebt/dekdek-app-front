@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "dekdek-app",
+    "slug": "senior-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "dekdek",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "useNextNotificationsApi": true,
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.bdforwk64.seniorappmaster"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow this app to access your location at all times.",
+          "locationWhenInUsePermission": "Allow this app to access your location while using the app."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1cbbc203-3b31-4841-82a5-f71afa021f2c"
+      }
+    },
+    "owner": "bdforwk64",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/00053ed2-e62e-4aa8-acb2-88db41c61854"
+    }
+  }
+}
