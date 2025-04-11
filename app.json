@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "dekdek-app",
-    "slug": "senior-app",
+    "slug": "senior-project-master",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
@@ -51,7 +51,7 @@
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/00053ed2-e62e-4aa8-acb2-88db41c61854"
+      "url": "https://u.expo.dev/1cbbc203-3b31-4841-82a5-f71afa021f2c"
     }
   }
 }
